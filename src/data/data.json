@@ -1,0 +1,163 @@
+{
+  "links": [
+    {
+      "id": 1,
+      "name": "About",
+      "link": "#about"
+    },
+    {
+      "id": 2,
+      "name": "Skills",
+      "link": "#skill"
+    },
+    {
+      "id": 3,
+      "name": "Experience",
+      "link": "#experience"
+    },
+    {
+      "id": 4,
+      "name": "Projects",
+      "link": "#projects"
+    },
+    {
+      "id": 5,
+      "name": "Contact",
+      "link": "#contact"
+    }
+  ],
+  "skills": {
+    "languageSkills": [
+      "C++",
+      "JavaScript",
+      "Python",
+      "Java",
+      "PHP",
+      "TypeScript",
+      "HTML 5",
+      "CSS 3"
+    ],
+    "frameworkSkills": [
+      "Node.js",
+      "React.js",
+      "Angular",
+      "Django",
+      "Laravel",
+      "Bootstrap"
+    ],
+    "databaseSkills": ["MongoDB", "MySQL"],
+    "toolSkills": ["VS Code", "Github", "Photoshop", "Illustrator", "Heroku"]
+  },
+  "social": [
+    {
+      "id": 1,
+      "name": "github",
+      "link": "http://github.com/BrayanAbraham",
+      "type": "link",
+      "icon": "fa fa-github"
+    },
+    {
+      "id": 2,
+      "name": "linkedin",
+      "link": "https://www.linkedin.com/in/brayanabraham/",
+      "type": "link",
+      "icon": "fa fa-linkedin"
+    },
+    {
+      "id": 3,
+      "name": "instagram",
+      "link": "https://www.instagram.com/wonderboy_jr28",
+      "type": "link",
+      "icon": "fa fa-instagram"
+    },
+    {
+      "id": 4,
+      "name": "twitter",
+      "link": "https://www.twitter.com/wonderboy_jr28",
+      "type": "link",
+      "icon": "fa fa-twitter"
+    },
+    {
+      "id": 5,
+      "name": "gmail",
+      "link": "brayanabraham@gmail.com",
+      "type": "mail",
+      "icon": "fa fa-envelope"
+    }
+  ],
+  "experience": [
+    {
+      "id": 4,
+      "company": "Serama Logistics Pvt. Ltd.",
+      "position": "Web Developer & Graphics Designer",
+      "start": {
+        "date": "01",
+        "super": "st",
+        "month": "June",
+        "year": "2020"
+      },
+      "end": {
+        "date": "15",
+        "super": "th",
+        "month": "September",
+        "year": "2020"
+      },
+      "desc": "At Serama Logistics Pvt. Ltd., a logistics company, I designed and developed the company website using PHP and JavaScript. I also designed various graphics for the website and social media accounts. I also developed content and other tools for marketing and promotion for the company."
+    },
+    {
+      "id": 3,
+      "company": "IEEE MSIT",
+      "position": "Technical Activities Coordinator",
+      "start": {
+        "date": "17",
+        "super": "th",
+        "month": "April",
+        "year": "2019"
+      },
+      "end": {
+        "date": "15",
+        "super": "th",
+        "month": "June",
+        "year": "2020"
+      },
+      "desc": "As the Technical Activities Coordinator at IEEE MSIT, I was responsible for conducting events and programs for students of MSIT where they could learn to make projects to tackle real world problems, also guiding and mentoring students for building these projects. I organised Special Interest Groups (SIGs) and Summer Project to Product Program (mentorship program during summer break). I was also the lead for organising the annual college Tech Fest and Technical Projects Exhibition (A national level exhibition)."
+    },
+    {
+      "id": 2,
+      "company": "OSA Hub Technologies",
+      "position": "Java on Cloud Trainee",
+      "start": {
+        "date": "18",
+        "super": "th",
+        "month": "June",
+        "year": "2018"
+      },
+      "end": {
+        "date": "31",
+        "super": "st",
+        "month": "July",
+        "year": "2018"
+      },
+      "desc": "At OSA Hub Technologies, I was a trainee, learning the fundamentals of Java. I also worked with JSPs and Servlets. I worked on Cloud Services such as Google App Engine and AWS. I led my team to develop a social media application called Talenholic, using Java."
+    },
+
+    {
+      "id": 1,
+      "company": "US4 Business Solutions Pvt. Ltd.",
+      "position": "Business Analytics Intern",
+      "start": {
+        "date": "13",
+        "super": "th",
+        "month": "June",
+        "year": "2017"
+      },
+      "end": {
+        "date": "28",
+        "super": "th",
+        "month": "July",
+        "year": "2017"
+      },
+      "desc": "At US4 Business Solutions Pvt. Ltd., I was researching into recruitment companies in the United States of America. I also developed the content for the company's website along with that of their sister company 'ErinLabs'. I also compiled the data and the progress report for the month's projects."
+    }
+  ]
+}
