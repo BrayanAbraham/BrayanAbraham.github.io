@@ -751,6 +751,13 @@ Project Section
   padding: 100px 0;
 }
 
+#projects #project-title h2 {
+  font-size: 40px;
+  font-family: "Roboto-Mono";
+  line-height: 50px;
+  text-decoration: underline;
+}
+
 /*------------------------------------------------------------------
 Contact Section
 ------------------------------------------------------------------*/
@@ -767,6 +774,7 @@ Contact Section
   font-size: 40px;
   font-family: "Roboto-Mono";
   line-height: 50px;
+  text-decoration: underline;
 }
 
 #contact p {

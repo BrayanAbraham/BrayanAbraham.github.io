@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Contact = ({ social }) => {
+const Contact = ({ social, resume }) => {
   const links = social.map((link) => {
     return link.type === "link" ? (
       <a
@@ -32,7 +32,11 @@ const Contact = ({ social }) => {
               a chat? I'll buy coffee.
             </p>
             <button className="btn btn-outline-primary">Say Hello</button>
-            <button className="btn btn-outline-primary">Resume</button>
+            {resume ? (
+              <a href={resume} target="_blank" rel="noopener noreferrer">
+                <button className="btn btn-outline-primary">Resume</button>
+              </a>
+            ) : null}
             <div id="social-links">{links}</div>
             <div id="developed">
               <p>
@@ -55,6 +59,7 @@ const Contact = ({ social }) => {
 
 Contact.propTypes = {
   social: PropTypes.array.isRequired,
+  resume: PropTypes.string,
 };
 
 export default Contact;

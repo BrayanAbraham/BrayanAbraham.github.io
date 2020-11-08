@@ -19,12 +19,12 @@ function App() {
       <Canvas />
       <div id="content">
         <Navbar links={data.links} />
-        <Welcome />
+        <Welcome resume={data.resume} />
         <About />
         <Skills skills={data.skills} />
         <Experience experience={data.experience} />
         <Projects />
-        <Contact social={data.social} />
+        <Contact social={data.social} resume={data.resume} />
         <Social links={data.social} />
         <Top />
       </div>

@@ -1,6 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
-const Welcome = () => {
+const Welcome = ({ resume }) => {
   return (
     <div id="home">
       <div id="wrapper">
@@ -18,7 +19,11 @@ const Welcome = () => {
                 <button className="btn btn-outline-primary">
                   Get in touch
                 </button>
-                <button className="btn btn-outline-primary">Resume</button>
+                {resume ? (
+                  <a href={resume} target="_blank" rel="noopener noreferrer">
+                    <button className="btn btn-outline-primary">Resume</button>
+                  </a>
+                ) : null}
               </div>
               <div className="col-md-1 col-lg-2"></div>
             </div>
@@ -27,6 +32,10 @@ const Welcome = () => {
       </div>
     </div>
   );
+};
+
+Welcome.propTypes = {
+  resume: PropTypes.string,
 };
 
 export default Welcome;

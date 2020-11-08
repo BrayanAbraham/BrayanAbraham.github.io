@@ -6,8 +6,9 @@ const Projects = () => {
       <div id="wrapper">
         <div className="container clearfix">
           <div id="project-title" className="text-center">
-            <h2>Project</h2>
+            <h2>Projects</h2>
           </div>
+          <div id="projects-list"></div>
         </div>
       </div>
     </div>
