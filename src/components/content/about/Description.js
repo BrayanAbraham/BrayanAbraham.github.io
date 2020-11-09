@@ -17,14 +17,7 @@ const Description = () => {
             computer labs of St. Gregorios School and I haven't stopped since. I
             have been developing Full-Stack Web Applications as well as
             Stand-Alone Applications. I am also a competitive Coder and an
-            occasional Poet. Checkout my work{" "}
-            <a
-              href="http://www.github.com/BrayanAbraham"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              here
-            </a>
+            occasional Poet.
           </p>
         </div>
       </div>

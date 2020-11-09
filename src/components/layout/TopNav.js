@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
+import { ReactSVG } from "react-svg";
 import PropTypes from "prop-types";
 import classnames from "classnames";
+import logo from "../../assets/images/Logo.svg";
 
 const TopNav = ({ links, setside }) => {
   const [sticky, setsticky] = useState(false);
@@ -30,7 +32,28 @@ const TopNav = ({ links, setside }) => {
         <div className="container clearfix">
           <div id="logo">
             <a href="#root" className="brayan-logo">
-              LOGO
+              <div className="logo-set">
+                {sticky ? (
+                  <svg viewBox="0 0 60 60" className="logo-border">
+                    <circle
+                      className="logo-border-circle"
+                      cx="30"
+                      cy="30"
+                      r="27"
+                    />
+                  </svg>
+                ) : (
+                  <svg viewBox="0 0 100 100" className="logo-border">
+                    <circle
+                      className="logo-border-circle"
+                      cx="50"
+                      cy="50"
+                      r="45"
+                    />
+                  </svg>
+                )}
+                <ReactSVG src={logo} className="logo-svg" />
+              </div>
             </a>
           </div>
           <div id="primary-menu-trigger" onClick={setside}>

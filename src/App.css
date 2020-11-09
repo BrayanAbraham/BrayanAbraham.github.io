@@ -165,6 +165,7 @@ Top Navbar
 #logo a {
   height: 100px;
   transition: height 0.4s ease, opacity 0.3s ease;
+  position: relative;
 }
 
 #header.dark.transparent,
@@ -195,6 +196,115 @@ Top Navbar
 
 #header .container {
   position: relative;
+}
+
+#logo a .logo-set {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+
+#logo a .logo-set .logo-border {
+  transform: rotate(-90deg);
+  height: 100px;
+  width: 100px;
+  transition: all 0.3s ease;
+}
+
+#logo a .logo-set .logo-border .logo-border-circle {
+  stroke: #66dae5;
+  fill: transparent;
+  stroke-width: 5;
+  stroke-dasharray: 254.57142857142857142857142857143,
+    282.85714285714285714285714285714;
+  stroke-dashoffset: -28.285714285714285714285714285711;
+  transition: all 0.3s ease;
+}
+
+@keyframes op {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes opt {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#logo a .logo-set .logo-svg {
+  text-align: center;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 17px;
+  width: 66px;
+  margin: 0 auto;
+  animation: opt 0.6s ease;
+  transition: all 0.3s ease;
+}
+
+@keyframes rot {
+  0% {
+    transform: rotate(-90deg);
+  }
+  25% {
+    transform: rotate(-180deg);
+  }
+  50% {
+    transform: rotate(-270deg);
+  }
+  75% {
+    transform: rotate(-360deg);
+  }
+  100% {
+    transform: rotate(-450deg);
+  }
+}
+
+#logo a:hover .logo-set .logo-border {
+  animation: rot 0.3s ease;
+}
+
+#logo a:hover .logo-set .logo-border .logo-border-circle {
+  fill: #66dae518;
+}
+
+#header.sticky-nav #header-wrap #logo a .logo-set {
+  position: relative;
+  height: 60px;
+  width: 60px;
+}
+
+#header.sticky-nav #header-wrap #logo a .logo-set .logo-border {
+  height: 60px;
+  width: 60px;
+}
+
+#header.sticky-nav #header-wrap #logo a .logo-set .logo-svg {
+  left: 10px;
+  width: 40px;
+  animation: op 0.6s ease;
 }
 
 #primary-menu-trigger {

@@ -38,8 +38,8 @@ const Project = ({ project }) => {
         <div className="card-footer">
           <ul>
             {project.tech
-              ? project.tech.map((t) => (
-                  <li>
+              ? project.tech.map((t, i) => (
+                  <li key={i}>
                     <span>{t}</span>
                   </li>
                 ))

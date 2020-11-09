@@ -33,7 +33,7 @@ const Projects = ({ projects }) => {
 };
 
 Projects.propTypes = {
-  mainProjects: PropTypes.array.isRequired,
+  projects: PropTypes.array.isRequired,
 };
 
 export default Projects;
