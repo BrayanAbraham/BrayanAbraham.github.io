@@ -2,8 +2,8 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Contact = ({ social, resume }) => {
-  const links = social.map((link) => {
-    return link.type === "link" ? (
+  const links = social.map((link) =>
+    link.type === "link" ? (
       <a
         href={link.link}
         target="_blank"
@@ -16,8 +16,8 @@ const Contact = ({ social, resume }) => {
       <a href={`mailto:${link.link}`} key={link.id}>
         <i className={link.icon}></i>
       </a>
-    );
-  });
+    )
+  );
 
   return (
     <div id="contact">

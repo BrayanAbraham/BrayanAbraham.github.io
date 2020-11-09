@@ -17,7 +17,7 @@
     },
     {
       "id": 4,
-      "name": "Projects",
+      "name": "Work",
       "link": "#projects"
     },
     {
@@ -106,7 +106,7 @@
     },
     {
       "id": 3,
-      "company": "IEEE MSIT",
+      "company": "IEEE MSIT Student Branch",
       "position": "Technical Activities Coordinator",
       "start": {
         "date": "17",
@@ -158,6 +158,51 @@
         "year": "2017"
       },
       "desc": "At US4 Business Solutions Pvt. Ltd., I was researching into recruitment companies in the United States of America. I also developed the content for the company's website along with that of their sister company 'ErinLabs'. I also compiled the data and the progress report for the month's projects."
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Serama Logistics Pvt. Ltd. Website",
+      "link": "http://serama.in",
+      "desc": "The Official Website for Serama Logistics Pvt. Ltd. built using PHP. The website involves a mailing service at the backend. The frontend is built using CSS and JS",
+      "tech": ["PHP", "JavaScript", "CSS"]
+    },
+    {
+      "id": 2,
+      "name": "Brayan's Diary",
+      "link": "https://brayansdiary.herokuapp.com/",
+      "desc": "My Personal Blog developed using MERN Stack to showcase my poetry and other writings to the world. The Backend involves the CRUD for posts. Also the visitors can post theirs comments on individual posts as well",
+      "tech": ["Node.js", "React", "Redux"]
+    },
+    {
+      "id": 3,
+      "name": "Genetic Algorithm For Global Maxima & Minima",
+      "link": "https://genetic-algorithm-for-global-maxima-minima.netlify.app/",
+      "github": "https://github.com/BrayanAbraham/Genetic-Algo-For-Global-Maxima-Minima",
+      "desc": "Instead of calculating the Global Maxima And Minima by a tiring Integration and Differentiation Method, this algorithm calculates Global Maxima and Minima for Complex Expressions using Evolutionary Method.",
+      "tech": ["React", "Chart.js", "Math.js", "Redux"]
+    },
+    {
+      "id": 4,
+      "name": "Eye Mouse For Motor Impaired",
+      "github": "https://github.com/BrayanAbraham/eyemouse",
+      "desc": "This is a program which allows users to control the mouse using their eyes. This program is beneficial for users with disabilities or partial paralysis who are not able to use  a mouse to communicate using a computer.",
+      "tech": ["Python", "OpenCV", "Machine Learning"]
+    },
+    {
+      "id": 5,
+      "name": "Placement Software",
+      "desc": "At IEEE MSIT, our team developed a software for the placement department of MSIT. The software filters students from a database based on criteria set by the visiting company on campus. The software also sends notification mails and SMS to students selected for further rounds",
+      "tech": ["Python"]
+    },
+    {
+      "id": 6,
+      "name": "IEEE MSIT Website",
+      "link": "http://ieee.msit.in/",
+      "github": "https://github.com/ieeecompsoc/IEEE-MSIT-WEB",
+      "desc": "The Official Website for IEEE MSIT Student Branch. Built using Django. I maintained the website and also developed various features such as Blog, Visitor Counter and redesigning of various pages.",
+      "tech": ["Python", "Django"]
     }
   ],
   "resume": "https://drive.google.com/file/d/1yAhr1MiDIC-KNLZG9xrVCHjy8frsOOqx/view?usp=sharing"

@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import IndividualSkill from "./IndividualSkill";
 
-const Skills = ({ skills }) => {
+const Skills = ({ skills, icons }) => {
   const {
     languageSkills,
     frameworkSkills,
@@ -11,19 +11,19 @@ const Skills = ({ skills }) => {
   } = skills;
 
   const languages = languageSkills.map((skill, i) => {
-    return <IndividualSkill skill={skill} key={i} />;
+    return <IndividualSkill skill={skill} key={i} icon={icons[skill]} />;
   });
 
   const frameworks = frameworkSkills.map((skill, i) => {
-    return <IndividualSkill skill={skill} key={i} />;
+    return <IndividualSkill skill={skill} key={i} icon={icons[skill]} />;
   });
 
   const database = databaseSkills.map((skill, i) => {
-    return <IndividualSkill skill={skill} key={i} />;
+    return <IndividualSkill skill={skill} key={i} icon={icons[skill]} />;
   });
 
   const softwares = toolSkills.map((skill, i) => {
-    return <IndividualSkill skill={skill} key={i} />;
+    return <IndividualSkill skill={skill} key={i} icon={icons[skill]} />;
   });
 
   return (
@@ -62,6 +62,7 @@ const Skills = ({ skills }) => {
 
 Skills.propTypes = {
   skills: PropTypes.object.isRequired,
+  icons: PropTypes.object.isRequired,
 };
 
 export default Skills;

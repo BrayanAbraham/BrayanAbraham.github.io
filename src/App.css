@@ -758,6 +758,94 @@ Project Section
   text-decoration: underline;
 }
 
+#projects .col-lg-4.col-sm-12.project {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#projects .project .card {
+  background-color: #eeeeee18;
+  border: 1px solid transparent;
+  transition: all 0.3s ease;
+}
+
+#projects .project .card:hover {
+  background-color: #05161f;
+  border: 1px solid #eeeeee;
+}
+
+#projects .project .card .card-header .project-links {
+  float: right;
+}
+
+#projects .project .card .card-header {
+  border: 0;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: "Roboto-Mono";
+}
+
+#projects .project .card .card-header .project-links .project-link,
+#projects .project .card .card-header .project-links .project-github {
+  padding: 0 5px;
+}
+
+#projects .project .card .card-header .project-links .project-link a,
+#projects .project .card .card-header .project-links .project-github a {
+  line-height: 1.5;
+  font-size: 1.25rem;
+}
+
+#projects .project .card .card-header .project-links .project-link a:hover,
+#projects .project .card .card-header .project-links .project-github a:hover {
+  color: #eee;
+}
+
+#projects .project .card .card-body {
+  padding: 10px 20px;
+}
+
+#projects .project .card .card-body p {
+  margin: 0;
+}
+
+#projects .project .card .card-footer {
+  border: 0;
+  background-color: transparent;
+  padding: 10px 20px;
+}
+
+#projects .project .card .card-footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#projects .project .card .card-footer li {
+  float: left;
+}
+
+#projects .project .card .card-footer li span {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  font-family: "Roboto-Mono";
+}
+
+#projects .project .card .card-footer li span:hover {
+  color: #eee;
+}
+
+#projects .btn {
+  margin: 10px;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  font-family: "Roboto-Mono";
+}
+
 /*------------------------------------------------------------------
 Contact Section
 ------------------------------------------------------------------*/
@@ -767,7 +855,7 @@ Contact Section
   z-index: 2;
   width: 100%;
   font-family: "Raleway-Regular";
-  padding: 100px 0;
+  padding: 150px 0 100px 0;
 }
 
 #contact #contact-title h2 {
