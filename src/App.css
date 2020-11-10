@@ -327,7 +327,7 @@ Top Navbar
   height: 80px;
   width: 80px;
   transition: all 0.3s ease;
-  animation: opt 0.4s ease;
+  animation: opt 0.6s ease;
 }
 
 #logo a .logo-set .logo-border {
@@ -376,7 +376,7 @@ Top Navbar
   position: relative;
   height: 60px;
   width: 60px;
-  animation: op 0.4s ease;
+  animation: op 0.6s ease;
 }
 
 #header.sticky-nav #header-wrap #logo a .logo-set .logo-border {
