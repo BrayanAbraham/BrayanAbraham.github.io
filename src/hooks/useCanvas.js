@@ -137,10 +137,12 @@ export const useCanvas = () => {
     };
 
     const step = () => {
-      context.clearRect(0, 0, width, height);
-      update();
-      render();
-      requestAnimationFrame(step);
+      if (context) {
+        context.clearRect(0, 0, width, height);
+        update();
+        render();
+        requestAnimationFrame(step);
+      }
     };
 
     const movePointer = (x, y) => {

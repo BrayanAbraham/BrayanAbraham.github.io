@@ -13,8 +13,8 @@ const Welcome = ({ resume, social }) => {
                 <h3>Hello there, I'm</h3>
                 <h1>BRAYAN ABRAHAM</h1>
                 <p>
-                  Web Developer | Application Developer | Software Engineer |
-                  Occasional Poet | Footballer
+                  Full Stack Developer | UI/UX Designer | Application Developer
+                  | Software Engineer | Occasional Poet | Footballer
                 </p>
                 <a href={`mailto:${social[4].link}`}>
                   <button className="btn btn-outline-primary">
