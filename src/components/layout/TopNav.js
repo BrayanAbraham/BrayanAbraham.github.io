@@ -19,7 +19,7 @@ const TopNav = ({ links, setside }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      setsticky(window.scrollY > 50 ? true : false);
+      setsticky(window.scrollY > 50 && window.innerWidth > 767 ? true : false);
     });
   }, []);
 

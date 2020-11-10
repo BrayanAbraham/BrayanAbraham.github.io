@@ -14,7 +14,7 @@ const Welcome = ({ resume }) => {
                 <h1>BRAYAN ABRAHAM</h1>
                 <p>
                   I'm a software engineer, competitive coder and an occasional
-                  poet. I love designing and developing beautiful applications.
+                  poet. I love designing and developing amazing applications.
                 </p>
                 <button className="btn btn-outline-primary">
                   Get in touch
