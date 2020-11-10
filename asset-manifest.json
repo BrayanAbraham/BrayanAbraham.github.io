@@ -1,31 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f23c113.chunk.css",
-    "main.js": "/static/js/main.b032c51a.chunk.js",
-    "main.js.map": "/static/js/main.b032c51a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.1074ed08.js",
-    "runtime-main.js.map": "/static/js/runtime-main.1074ed08.js.map",
+    "main.css": "/static/css/main.e197b0b1.chunk.css",
+    "main.js": "/static/js/main.6d00a516.chunk.js",
+    "main.js.map": "/static/js/main.6d00a516.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b1f15f5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b1f15f5f.js.map",
     "static/css/2.95f25948.chunk.css": "/static/css/2.95f25948.chunk.css",
-    "static/js/2.7dbf09de.chunk.js": "/static/js/2.7dbf09de.chunk.js",
-    "static/js/2.7dbf09de.chunk.js.map": "/static/js/2.7dbf09de.chunk.js.map",
-    "static/js/3.b004e362.chunk.js": "/static/js/3.b004e362.chunk.js",
-    "static/js/3.b004e362.chunk.js.map": "/static/js/3.b004e362.chunk.js.map",
+    "static/js/2.4492c0ca.chunk.js": "/static/js/2.4492c0ca.chunk.js",
+    "static/js/2.4492c0ca.chunk.js.map": "/static/js/2.4492c0ca.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.95f25948.chunk.css.map": "/static/css/2.95f25948.chunk.css.map",
-    "static/css/main.2f23c113.chunk.css.map": "/static/css/main.2f23c113.chunk.css.map",
-    "static/js/2.7dbf09de.chunk.js.LICENSE.txt": "/static/js/2.7dbf09de.chunk.js.LICENSE.txt",
+    "static/css/main.e197b0b1.chunk.css.map": "/static/css/main.e197b0b1.chunk.css.map",
+    "static/js/2.4492c0ca.chunk.js.LICENSE.txt": "/static/js/2.4492c0ca.chunk.js.LICENSE.txt",
     "static/media/B&WPhoto.033d9247.jpg": "/static/media/B&WPhoto.033d9247.jpg",
     "static/media/ColorPhoto.3fcfcc98.jpg": "/static/media/ColorPhoto.3fcfcc98.jpg",
     "static/media/Django.4c399895.png": "/static/media/Django.4c399895.png",
     "static/media/Laravel.c33ce282.png": "/static/media/Laravel.c33ce282.png",
-    "static/media/App.css": "/static/media/RobotoMono-VariableFont_wght.2ccde177.ttf",
+    "static/media/Logo.1d4e7903.svg": "/static/media/Logo.1d4e7903.svg",
+    "static/media/App.css": "/static/media/Raleway-ThinItalic.9e9f8b9c.ttf",
     "static/media/VSCode.7ce78703.png": "/static/media/VSCode.7ce78703.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.1074ed08.js",
+    "static/js/runtime-main.b1f15f5f.js",
     "static/css/2.95f25948.chunk.css",
-    "static/js/2.7dbf09de.chunk.js",
-    "static/css/main.2f23c113.chunk.css",
-    "static/js/main.b032c51a.chunk.js"
+    "static/js/2.4492c0ca.chunk.js",
+    "static/css/main.e197b0b1.chunk.css",
+    "static/js/main.6d00a516.chunk.js"
   ]
 }
