@@ -34,21 +34,21 @@ const TopNav = ({ links, setside }) => {
             <a href="#root" className="brayan-logo">
               <div className="logo-set">
                 {sticky ? (
-                  <svg viewBox="0 0 60 60" className="logo-border">
+                  <svg viewBox="0 0 40 40" className="logo-border">
                     <circle
                       className="logo-border-circle"
-                      cx="30"
-                      cy="30"
-                      r="27"
+                      cx="20"
+                      cy="20"
+                      r="18"
                     />
                   </svg>
                 ) : (
-                  <svg viewBox="0 0 100 100" className="logo-border">
+                  <svg viewBox="0 0 80 80" className="logo-border">
                     <circle
                       className="logo-border-circle"
-                      cx="50"
-                      cy="50"
-                      r="45"
+                      cx="40"
+                      cy="40"
+                      r="36"
                     />
                   </svg>
                 )}
