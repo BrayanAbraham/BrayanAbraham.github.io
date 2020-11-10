@@ -18,7 +18,7 @@ const Welcome = ({ resume, social }) => {
                 </p>
                 <a href={`mailto:${social[4].link}`}>
                   <button className="btn btn-outline-primary">
-                    Get in touch
+                    Get In Touch
                   </button>
                 </a>
                 {resume ? (
