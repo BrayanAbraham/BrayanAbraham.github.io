@@ -183,6 +183,18 @@ Preloader
   0% {
     stroke-dasharray: 0, 565.71428571428571428571428571429;
   }
+  25% {
+    stroke-dasharray: 141.42857142857142857142857142857,
+      565.71428571428571428571428571429;
+  }
+  50% {
+    stroke-dasharray: 282.85714285714285714285714285715,
+      565.71428571428571428571428571429;
+  }
+  75% {
+    stroke-dasharray: 424.28571428571428571428571428572,
+      565.71428571428571428571428571429;
+  }
   100% {
     stroke-dasharray: 565.71428571428571428571428571429,
       565.71428571428571428571428571429;
@@ -195,7 +207,7 @@ Preloader
   stroke-width: 5;
   stroke-dasharray: 565.71428571428571428571428571429,
     565.71428571428571428571428571429;
-  animation: load-border 1.5s ease;
+  animation: load-border 1.8s ease;
 }
 
 @keyframes load-op {
@@ -218,7 +230,7 @@ Preloader
   left: 34px;
   width: 132px;
   margin: 0 auto;
-  animation: load-op 2s ease;
+  animation: load-op 2.5s ease;
 }
 
 @keyframes hide-load {

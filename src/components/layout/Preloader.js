@@ -1,20 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import logo from "../../assets/images/Logo.svg";
 import { ReactSVG } from "react-svg";
 import classnames from "classnames";
 
-const Preloader = () => {
-  const [opacity, setopacity] = useState(false);
-  const [hide, sethide] = useState(false);
-
-  setTimeout(() => {
-    setopacity(true);
-  }, 2000);
-
-  setTimeout(() => {
-    sethide(true);
-  }, 3000);
-
+const Preloader = ({ opacity, hide }) => {
   return (
     <div
       id="preloader"
