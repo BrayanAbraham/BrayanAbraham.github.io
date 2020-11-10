@@ -13,10 +13,12 @@ import Projects from "./components/content/projects/Projects";
 import Contact from "./components/content/Contact";
 import Social from "./components/layout/Social";
 import Top from "./components/layout/Top";
+import Preloader from "./components/layout/Preloader";
 
 function App() {
   return (
     <div>
+      <Preloader />
       <Canvas />
       <div id="content">
         <Navbar links={data.links} />
