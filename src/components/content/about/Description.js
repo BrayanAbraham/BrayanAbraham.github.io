@@ -6,11 +6,11 @@ const Description = () => {
       <div className="container">
         <div className="text">
           <p>
-            Hello, I'm Brayan Abraham, a Software Enginner from New Delhi,
-            India. I specialise in building remarkable websites, applications
-            and everything in between. I recently completed B.Tech. in Computer
-            Science &amp; Engineering from Maharaja Surajmal Institute of
-            Technology (GGSIPU).
+            Hello, I'm Brayan Abraham, a Software Enginner from New Delhi - the
+            beautiful capital of India. I specialise in building remarkable
+            websites, applications and everything in between. I recently
+            completed B.Tech. in Computer Science &amp; Engineering from
+            Maharaja Surajmal Institute of Technology (GGSIPU).
           </p>
           <p>
             I fell in love with coding when I was in 11th Standard in the

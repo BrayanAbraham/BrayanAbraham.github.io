@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-const Welcome = ({ resume }) => {
+const Welcome = ({ resume, social }) => {
   return (
     <div id="home">
       <div id="wrapper">
@@ -13,12 +13,14 @@ const Welcome = ({ resume }) => {
                 <h3>Hello there, I'm</h3>
                 <h1>BRAYAN ABRAHAM</h1>
                 <p>
-                  I'm a software engineer, competitive coder and an occasional
-                  poet. I love designing and developing amazing applications.
+                  Web Developer | Application Developer | Software Engineer |
+                  Occasional Poet | Footballer
                 </p>
-                <button className="btn btn-outline-primary">
-                  Get in touch
-                </button>
+                <a href={`mailto:${social[4].link}`}>
+                  <button className="btn btn-outline-primary">
+                    Get in touch
+                  </button>
+                </a>
                 {resume ? (
                   <a href={resume} target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-outline-primary">Resume</button>
@@ -36,6 +38,7 @@ const Welcome = ({ resume }) => {
 
 Welcome.propTypes = {
   resume: PropTypes.string,
+  social: PropTypes.array.isRequired,
 };
 
 export default Welcome;

@@ -1,10 +1,6 @@
 /*------------------------------------------------------------------
 Basic and background
 ------------------------------------------------------------------*/
-@font-face {
-  font-family: "Roboto-Mono";
-  src: url("./assets/fonts/Roboto_Mono/RobotoMono-VariableFont_wght.ttf");
-}
 
 @font-face {
   font-family: "Raleway-Black";
@@ -97,13 +93,13 @@ Basic and background
 }
 
 a {
-  color: inherit;
+  color: #66dae5;
   transition: all 0.3s ease;
 }
 
 a:hover {
   text-decoration: none;
-  color: #66dae5;
+  color: #eee;
 }
 
 #wrapper {
@@ -180,7 +176,7 @@ Preloader
 #preloader .load-logo .logo-border {
   height: 200px;
   width: 200px;
-  transform: rotateX(180deg) rotate(45deg);
+  transform: rotateX(180deg) rotate(90deg);
 }
 
 @keyframes load-border {
@@ -188,7 +184,7 @@ Preloader
     stroke-dasharray: 0, 565.71428571428571428571428571429;
   }
   100% {
-    stroke-dasharray: 509.14285714285714285714285714286,
+    stroke-dasharray: 565.71428571428571428571428571429,
       565.71428571428571428571428571429;
   }
 }
@@ -197,9 +193,8 @@ Preloader
   stroke: #66dae5;
   fill: transparent;
   stroke-width: 5;
-  stroke-dasharray: 509.14285714285714285714285714286,
+  stroke-dasharray: 565.71428571428571428571428571429,
     565.71428571428571428571428571429;
-  stroke-dashoffset: -56.571428571428571428571428571433;
   animation: load-border 1.5s ease;
 }
 
@@ -249,7 +244,7 @@ Top Navbar
 ------------------------------------------------------------------*/
 
 #header {
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Medium";
   position: relative;
 }
 
@@ -392,6 +387,16 @@ Top Navbar
 #header.sticky-nav #header-wrap #logo a .logo-set .logo-border {
   height: 60px;
   width: 60px;
+}
+
+#header.sticky-nav
+  #header-wrap
+  #logo
+  a
+  .logo-set
+  .logo-border
+  .logo-border-circle {
+  stroke-width: 3;
 }
 
 #header.sticky-nav #header-wrap #logo a .logo-set .logo-svg {
@@ -578,7 +583,7 @@ Side Navbar
 }
 
 .side-nav {
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Medium";
   opacity: 1;
   position: fixed;
   top: 0;
@@ -730,7 +735,7 @@ Welcome Section
 
 #home h3 {
   font-size: 27px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Light";
   color: #66dae5;
 }
 
@@ -751,7 +756,7 @@ Welcome Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Medium";
   color: #66dae5;
   border-color: #66dae5;
 }
@@ -807,7 +812,7 @@ About Section
 
 #about #about-title h2 {
   font-size: 40px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
   line-height: 50px;
   text-decoration: underline;
 }
@@ -865,7 +870,7 @@ Skills Section
 
 #skill #skill-title h2 {
   font-size: 40px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
   text-decoration: underline;
   line-height: 50px;
 }
@@ -947,7 +952,7 @@ Experience Section
 
 #experience #experience-title h2 {
   font-size: 40px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
   line-height: 50px;
   text-decoration: underline;
 }
@@ -979,7 +984,7 @@ Project Section
 
 #projects #project-title h2 {
   font-size: 40px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
   line-height: 50px;
   text-decoration: underline;
 }
@@ -1008,7 +1013,7 @@ Project Section
   border: 0;
   background-color: transparent;
   padding: 10px 20px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
 }
 
 #projects .project .card .card-header .project-links .project-link,
@@ -1058,7 +1063,7 @@ Project Section
   text-align: center;
   padding: 5px;
   cursor: pointer;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Light";
 }
 
 #projects .project .card .card-footer li span:hover {
@@ -1070,7 +1075,7 @@ Project Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Medium";
   color: #66dae5;
   border-color: #66dae5;
 }
@@ -1094,7 +1099,7 @@ Contact Section
 
 #contact #contact-title h2 {
   font-size: 40px;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Regular";
   line-height: 50px;
   text-decoration: underline;
 }
@@ -1110,7 +1115,7 @@ Contact Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Roboto-Mono";
+  font-family: "Raleway-Medium";
   color: #66dae5;
   border-color: #66dae5;
 }

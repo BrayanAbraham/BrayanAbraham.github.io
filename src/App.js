@@ -22,7 +22,7 @@ function App() {
       <Canvas />
       <div id="content">
         <Navbar links={data.links} />
-        <Welcome resume={data.resume} />
+        <Welcome resume={data.resume} social={data.social} />
         <About />
         <Skills skills={data.skills} icons={icons} />
         <Experience experience={data.experience} />

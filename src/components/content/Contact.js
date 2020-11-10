@@ -29,7 +29,9 @@ const Contact = ({ social, resume }) => {
             </div>
             <p>
               Need anything built, want to work together or simply want to have
-              a chat? I'll buy coffee.
+              a chat? Drop a mail at{" "}
+              <a href={`mailto:${social[4].link}`}>{social[4].link}</a> or say
+              hello below. I'll buy coffee.
             </p>
             <a href={`mailto:${social[4].link}`}>
               <button className="btn btn-outline-primary">Say Hello</button>
