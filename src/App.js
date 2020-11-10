@@ -8,7 +8,7 @@ import Navbar from "./components/layout/Navbar";
 import Welcome from "./components/content/Welcome";
 import Skills from "./components/content/skill/Skills";
 import About from "./components/content/about/About";
-import Experience from "./components/content/Experience";
+import Experience from "./components/content/experience/Experience";
 import Projects from "./components/content/projects/Projects";
 import Contact from "./components/content/Contact";
 import Social from "./components/layout/Social";
