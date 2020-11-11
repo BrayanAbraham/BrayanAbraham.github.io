@@ -120,7 +120,7 @@
         "month": "June",
         "year": "2020"
       },
-      "desc": "As the Technical Activities Coordinator at IEEE MSIT, I was responsible for conducting events and programs for students of MSIT where they could learn to make projects to tackle real world problems, also guiding and mentoring students for building these projects. I organised Special Interest Groups (SIGs) and Summer Project to Product Program (mentorship program during summer break). I was also the lead for organising the annual college Tech Fest and Technical Projects Exhibition (A national level exhibition)."
+      "desc": "As the Technical Activities Coordinator at IEEE MSIT, I was responsible for conducting events and programs for students of MSIT where they could learn to develop projects to tackle real-world problems, also guiding and mentoring students for building these projects. I organised Special Interest Groups (SIGs) and Summer Project to Product Program (mentorship program during summer break). I was also the lead for organising the annual college Tech Fest and Technical Projects Exhibition (A national-level exhibition)."
     },
     {
       "id": 2,
@@ -157,7 +157,7 @@
         "month": "July",
         "year": "2017"
       },
-      "desc": "I was working as a Business Analytics Intern, where I was researching into recruitment companies in the United States of America. I also developed the content for the company's website along with that of their sister company 'ErinLabs'. I also compiled the data and the progress report for the month's projects."
+      "desc": "I was working as a Business Analytics Intern, where I was researching recruitment companies in the United States of America. I also developed the content for the company's website along with that of their sister company 'ErinLabs'. I also compiled the data and the progress report for the month's projects."
     }
   ],
   "projects": [
@@ -165,14 +165,14 @@
       "id": 1,
       "name": "Serama Logistics Pvt. Ltd. Website",
       "link": "http://serama.in",
-      "desc": "The Official Website for Serama Logistics Pvt. Ltd. built using PHP. The website involves a mailing service at the backend. The frontend is built using CSS and JS",
+      "desc": "The Official Website for Serama Logistics Pvt. Ltd. built using PHP. The website involves a mailing service at the backend. The frontend developed using CSS and JS.",
       "tech": ["PHP", "JavaScript", "CSS"]
     },
     {
       "id": 2,
       "name": "Brayan's Diary",
       "link": "https://brayansdiary.herokuapp.com/",
-      "desc": "My Personal Blog developed using MERN Stack to showcase my poetry and other writings to the world. The Backend involves the CRUD for posts. Also the visitors can post theirs comments on individual posts as well",
+      "desc": "My Blog developed using MERN Stack to showcase my poetry and other writings to the world. The Backend involves the CRUD for posts. Also, visitors can post their comments on individual posts as well.",
       "tech": ["Node.js", "React", "Redux"]
     },
     {
@@ -185,15 +185,15 @@
     },
     {
       "id": 4,
-      "name": "Eye Mouse For Motor Impaired",
+      "name": "EyeMouse For Motor Impaired",
       "github": "https://github.com/BrayanAbraham/eyemouse",
-      "desc": "This is a program which allows users to control the mouse using their eyes. This program is beneficial for users with disabilities or partial paralysis who are not able to use  a mouse to communicate using a computer.",
+      "desc": "EyeMouse is a program which allows users to control the mouse using their eyes. This program is beneficial for users with disabilities or partial paralysis who are not able to use a mouse to communicate using a computer.",
       "tech": ["Python", "OpenCV", "Machine Learning"]
     },
     {
       "id": 5,
       "name": "Placement Software",
-      "desc": "At IEEE MSIT, our team developed a software for the placement department of MSIT. The software filters students from a database based on criteria set by the visiting company on campus. The software also sends notification mails and SMS to students selected for further rounds",
+      "desc": "At IEEE MSIT, our team developed a software for the placement department of MSIT. The software filters students from a database based on criteria set by the visiting company on campus. The software also sends notification emails and SMS to students selected for further rounds.",
       "tech": ["Python"]
     },
     {
@@ -201,7 +201,7 @@
       "name": "IEEE MSIT Website",
       "link": "http://ieee.msit.in/",
       "github": "https://github.com/ieeecompsoc/IEEE-MSIT-WEB",
-      "desc": "The Official Website for IEEE MSIT Student Branch. Built using Django. I maintained the website and also developed various features such as Blog, Visitor Counter and redesigning of various pages.",
+      "desc": "The Official Website for IEEE MSIT Student Branch. Built using Django. I maintained the website and also developed various features such as Blog, Visitor Counter and redesigning of different pages.",
       "tech": ["Python", "Django"]
     }
   ],
