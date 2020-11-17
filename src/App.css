@@ -5,26 +5,31 @@ Basic and background
 @font-face {
   font-family: "Raleway-Bold";
   src: url("./assets/fonts/Raleway/Raleway-Bold.ttf");
+  font-display: auto;
 }
 
 @font-face {
   font-family: "Raleway-Extra-Bold";
   src: url("./assets/fonts/Raleway/Raleway-ExtraBold.ttf");
+  font-display: auto;
 }
 
 @font-face {
   font-family: "Raleway-Light";
   src: url("./assets/fonts/Raleway/Raleway-Light.ttf");
+  font-display: auto;
 }
 
 @font-face {
   font-family: "Raleway-Medium";
   src: url("./assets/fonts/Raleway/Raleway-Medium.ttf");
+  font-display: auto;
 }
 
 @font-face {
   font-family: "Raleway-Regular";
   src: url("./assets/fonts/Raleway/Raleway-Regular.ttf");
+  font-display: auto;
 }
 
 a {
