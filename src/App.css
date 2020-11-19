@@ -2,36 +2,6 @@
 Basic and background
 ------------------------------------------------------------------*/
 
-@font-face {
-  font-family: "Raleway-Bold";
-  src: url("./assets/fonts/Raleway/Raleway-Bold.ttf");
-  font-display: auto;
-}
-
-@font-face {
-  font-family: "Raleway-Extra-Bold";
-  src: url("./assets/fonts/Raleway/Raleway-ExtraBold.ttf");
-  font-display: auto;
-}
-
-@font-face {
-  font-family: "Raleway-Light";
-  src: url("./assets/fonts/Raleway/Raleway-Light.ttf");
-  font-display: auto;
-}
-
-@font-face {
-  font-family: "Raleway-Medium";
-  src: url("./assets/fonts/Raleway/Raleway-Medium.ttf");
-  font-display: auto;
-}
-
-@font-face {
-  font-family: "Raleway-Regular";
-  src: url("./assets/fonts/Raleway/Raleway-Regular.ttf");
-  font-display: auto;
-}
-
 a {
   color: #66dae5;
   transition: all 0.3s ease;
@@ -196,7 +166,8 @@ Top Navbar
 ------------------------------------------------------------------*/
 
 #header {
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   position: relative;
 }
 
@@ -539,7 +510,8 @@ Side Navbar
 }
 
 .side-nav {
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   opacity: 1;
   position: fixed;
   top: 0;
@@ -677,7 +649,8 @@ Welcome Section
   z-index: 2;
   width: 100%;
   min-height: 100%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 #home #wrapper,
@@ -691,19 +664,22 @@ Welcome Section
 
 #home h3 {
   font-size: 27px;
-  font-family: "Raleway-Light";
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   color: #66dae5;
 }
 
 #home h1 {
   font-size: 60px;
-  font-family: "Raleway-Extra-Bold";
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
   padding: 10px 0;
 }
 
 #home p {
   font-size: 23px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   color: #ccc;
 }
 
@@ -712,7 +688,8 @@ Welcome Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   color: #66dae5;
   border-color: #66dae5;
 }
@@ -733,7 +710,8 @@ Welcome Section
 
   #home h1 {
     font-size: 50px;
-    font-family: "Raleway-Bold";
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
   }
 
   #home p {
@@ -762,13 +740,15 @@ About Section
   z-index: 2;
   width: 100%;
   min-height: 90%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding-top: 100px;
 }
 
 #about #about-title h2 {
   font-size: 40px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   line-height: 50px;
   text-decoration: underline;
 }
@@ -788,7 +768,8 @@ About Section
 }
 
 #about .text {
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   font-size: 20px;
   margin-top: 25px;
 }
@@ -820,13 +801,15 @@ Skills Section
   z-index: 2;
   width: 100%;
   min-height: 100%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding: 100px 0;
 }
 
 #skill #skill-title h2 {
   font-size: 40px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   text-decoration: underline;
   line-height: 50px;
 }
@@ -834,7 +817,8 @@ Skills Section
 #skill #skill-title p {
   font-size: 20px;
   line-height: 30px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 #skill #language-skills {
@@ -845,7 +829,8 @@ Skills Section
   padding: 20px 0;
   font-size: 30px;
   line-height: 40px;
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
 }
 
 #skill .row {
@@ -902,13 +887,15 @@ Experience Section
   z-index: 2;
   width: 100%;
   min-height: 100%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding: 100px 0;
 }
 
 #experience #experience-title h2 {
   font-size: 40px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   line-height: 50px;
   text-decoration: underline;
 }
@@ -934,13 +921,15 @@ Project Section
   z-index: 2;
   width: 100%;
   min-height: 100%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding: 100px 0;
 }
 
 #projects #project-title h2 {
   font-size: 40px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   line-height: 50px;
   text-decoration: underline;
 }
@@ -969,7 +958,8 @@ Project Section
   border: 0;
   background-color: transparent;
   padding: 10px 20px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 
 #projects .project .card .card-header .project-links .project-link,
@@ -1019,7 +1009,7 @@ Project Section
   text-align: center;
   padding: 5px;
   cursor: pointer;
-  font-family: "Raleway-Light";
+  font-family: "font-family: " Raleway ", sans-serif; font-weight:300;";
 }
 
 #projects .project .card .card-footer li span:hover {
@@ -1031,7 +1021,8 @@ Project Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   color: #66dae5;
   border-color: #66dae5;
 }
@@ -1049,20 +1040,23 @@ Contact Section
   position: relative;
   z-index: 2;
   width: 100%;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding: 150px 0 100px 0;
 }
 
 #contact #contact-title h2 {
   font-size: 40px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   line-height: 50px;
   text-decoration: underline;
 }
 
 #contact p {
   font-size: 20px;
-  font-family: "Raleway-Regular";
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
   padding-top: 20px;
 }
 
@@ -1071,7 +1065,8 @@ Contact Section
   height: 60px;
   width: 200px;
   text-align: center;
-  font-family: "Raleway-Medium";
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
   color: #66dae5;
   border-color: #66dae5;
 }
