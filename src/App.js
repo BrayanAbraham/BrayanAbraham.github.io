@@ -1,5 +1,3 @@
-import "bootstrap/dist/css/bootstrap.css";
-import "bootstrap/dist/js/bootstrap.js";
 import "./App.css";
 import data from "./data/data.json";
 import icons from "./assets/icons/icons";
