@@ -31,7 +31,7 @@ const TopNav = ({ links, setside }) => {
       <div id="header-wrap">
         <div className="container clearfix">
           <div id="logo">
-            <a href="#root" className="brayan-logo">
+            <a href="#root" className="brayan-logo" aria-label="Brayan Logo">
               <div className="logo-set">
                 {sticky ? (
                   <svg viewBox="0 0 40 40" className="logo-border">

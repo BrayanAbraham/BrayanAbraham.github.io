@@ -39,19 +39,19 @@ const Skills = ({ skills, icons }) => {
             </p>
           </div>
           <div id="language-skills" className="text-center">
-            <h4 className="skill-header">Languages</h4>
+            <h3 className="skill-header">Languages</h3>
             <div className="row text-center">{languages}</div>
           </div>
           <div id="framework-skills" className="text-center">
-            <h4 className="skill-header">Frameworks</h4>
+            <h3 className="skill-header">Frameworks</h3>
             <div className="row text-center">{frameworks}</div>
           </div>
           <div id="database-skills" className="text-center">
-            <h4 className="skill-header">Database</h4>
+            <h3 className="skill-header">Database</h3>
             <div className="row text-center">{database}</div>
           </div>
           <div id="database-skills" className="text-center">
-            <h4 className="skill-header">Softwares &amp; Other Tools</h4>
+            <h3 className="skill-header">Softwares &amp; Other Tools</h3>
             <div className="row text-center">{softwares}</div>
           </div>
         </div>

@@ -7,21 +7,21 @@ const ExperienceItem = ({ experience }) => {
       <div className="row">
         <div className="col-md-6">
           <h3>{experience.company}</h3>
-          <h5>{experience.position}</h5>
+          <h4>{experience.position}</h4>
           {experience.start && experience.end ? (
-            <h6>
+            <h5>
               {experience.start.date}
               <sup>{experience.start.super}</sup> {experience.start.month}{" "}
               {experience.start.year} to {experience.end.date}
               <sup>{experience.end.super}</sup> {experience.end.month}{" "}
               {experience.end.year}
-            </h6>
+            </h5>
           ) : experience.start ? (
-            <h6>
+            <h5>
               {experience.start.date}
               <sup>{experience.start.super}</sup> {experience.start.month}{" "}
               {experience.start.year} to Present
-            </h6>
+            </h5>
           ) : null}
         </div>
         <div className="col-md-6">

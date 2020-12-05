@@ -9,11 +9,12 @@ const Contact = ({ social, resume }) => {
         target="_blank"
         rel="noopener noreferrer"
         key={link.id}
+        aria-label={link.name}
       >
         <i className={link.icon}></i>
       </a>
     ) : (
-      <a href={`mailto:${link.link}`} key={link.id}>
+      <a href={`mailto:${link.link}`} key={link.id} aria-label={link.name}>
         <i className={link.icon}></i>
       </a>
     )

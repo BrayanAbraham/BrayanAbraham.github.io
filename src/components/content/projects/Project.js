@@ -13,6 +13,7 @@ const Project = ({ project }) => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={project.name}
                 >
                   <i className="fa fa-link"></i>
                 </a>
@@ -24,13 +25,14 @@ const Project = ({ project }) => {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label={project.name}
                 >
                   <i className="fa fa-github"></i>
                 </a>
               </span>
             ) : null}
           </div>
-          <h5>{project.name}</h5>
+          <h3>{project.name}</h3>
         </div>
         <div className="card-body">
           <p>{project.desc}</p>

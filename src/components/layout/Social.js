@@ -6,11 +6,16 @@ const Social = ({ links }) => {
     return (
       <div className="social-icon" key={link.id}>
         {link.type === "link" ? (
-          <a href={link.link} target="_blank" rel="noopener noreferrer">
+          <a
+            href={link.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={link.name}
+          >
             <i className={link.icon}></i>
           </a>
         ) : (
-          <a href={`mailto:${link.link}`}>
+          <a href={`mailto:${link.link}`} aria-label={link.name}>
             <i className={link.icon}></i>
           </a>
         )}
