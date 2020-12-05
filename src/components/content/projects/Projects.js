@@ -23,7 +23,9 @@ const Projects = ({ projects }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="btn btn-outline-primary">See More</button>
+              <button className="btn btn-outline-primary">
+                See More Projects
+              </button>
             </a>
           </div>
         </div>
