@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import color from "../../../assets/images/ColorPhoto.jpg";
-import black from "../../../assets/images/B&WPhoto.jpg";
+import PropTypes from "prop-types";
 
-const Photo = () => {
+const Photo = ({ color, black }) => {
   const [photo, setphoto] = useState(black);
 
   return (
@@ -18,6 +17,11 @@ const Photo = () => {
       </div>
     </div>
   );
+};
+
+Photo.propTypes = {
+  color: PropTypes.string.isRequired,
+  black: PropTypes.string.isRequired,
 };
 
 export default Photo;
