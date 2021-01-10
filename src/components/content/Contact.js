@@ -54,7 +54,7 @@ const Contact = ({ social, resume }) => {
                   Brayan Abraham
                 </a>
               </p>
-              <p>Copyright &copy; 2020</p>
+              <p>Copyright &copy; 2021</p>
             </div>
           </div>
         </div>
