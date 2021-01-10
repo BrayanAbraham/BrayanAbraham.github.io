@@ -87,6 +87,18 @@
   ],
   "experience": [
     {
+      "id": 5,
+      "company": "Wingify Software Pvt. Ltd.",
+      "position": "Software Engineer",
+      "start": {
+        "date": "17",
+        "super": "th",
+        "month": "November",
+        "year": "2020"
+      },
+      "desc": "I am currently working as a Software Engineer working at the backend on the VWO platform."
+    },
+    {
       "id": 4,
       "company": "Serama Logistics Pvt. Ltd.",
       "position": "Web Developer & Graphics Designer",
@@ -204,6 +216,5 @@
       "desc": "The Official Website for IEEE MSIT Student Branch. Built using Django. I maintained the website and also developed various features such as Blog, Visitor Counter and redesigning of different pages.",
       "tech": ["Python", "Django"]
     }
-  ],
-  "resume": "https://drive.google.com/file/d/1BaUTUriVgFjwEEn6Ihlyy5CM8acXS6_F/view?usp=sharing"
+  ]
 }
