@@ -19,6 +19,7 @@ import github from "./Github.png";
 import photoshop from "./Photoshop.png";
 import illustrator from "./Illustrator.png";
 import heroku from "./Heroku.png";
+import docker from "./Docker.png";
 // import virtualbox from "./VirtualBox.png";
 // import windows from "./Windows.png";
 // import linux from "./Linux.png";
@@ -45,6 +46,7 @@ const icons = {
   Photoshop: photoshop,
   Illustrator: illustrator,
   Heroku: heroku,
+  Docker: docker,
 };
 
 export default icons;

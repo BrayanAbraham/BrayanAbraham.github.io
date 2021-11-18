@@ -46,7 +46,14 @@
       "Bootstrap"
     ],
     "databaseSkills": ["MongoDB", "MySQL"],
-    "toolSkills": ["VS Code", "Github", "Photoshop", "Illustrator", "Heroku"]
+    "toolSkills": [
+      "VS Code",
+      "Github",
+      "Photoshop",
+      "Illustrator",
+      "Heroku",
+      "Docker"
+    ]
   },
   "social": [
     {
@@ -89,66 +96,91 @@
     {
       "id": 5,
       "company": "Wingify Software Pvt. Ltd.",
-      "position": "Software Engineer",
-      "start": {
-        "date": "17",
-        "super": "th",
-        "month": "November",
-        "year": "2020"
-      },
-      "desc": "I am currently working as a Software Engineer working at the backend on the VWO platform."
+      "position": [
+        {
+          "name": "Software Engineer - II (Backend)",
+          "start": {
+            "date": "1",
+            "super": "st",
+            "month": "November",
+            "year": "2021"
+          }
+        },
+        {
+          "name": "Software Engineer - I (Backend)",
+          "start": {
+            "date": "17",
+            "super": "th",
+            "month": "November",
+            "year": "2020"
+          },
+          "end": {
+            "date": "31",
+            "super": "st",
+            "month": "October",
+            "year": "2021"
+          }
+        }
+      ],
+      "desc": "I am currently working as a Software Engineer working at the backend on the VWO platform used for AB Testing and other kinds of CRO activities. Developing and maintaining the backend of VWO along with the micro-services associated with it. I have also designed and developed a Domain Specific Language (DSL) to communicate between micro-services to communicate segment information. Currently working on Multi-Factor Authentication and the upcoming Event Architecture on the VWO application."
     },
     {
       "id": 4,
       "company": "Serama Logistics Pvt. Ltd.",
-      "position": "Web Developer & Graphics Designer",
-      "start": {
-        "date": "01",
-        "super": "st",
-        "month": "June",
-        "year": "2020"
-      },
-      "end": {
-        "date": "15",
-        "super": "th",
-        "month": "September",
-        "year": "2020"
+      "position": {
+        "name": "Web Developer & Graphics Designer",
+        "start": {
+          "date": "01",
+          "super": "st",
+          "month": "June",
+          "year": "2020"
+        },
+        "end": {
+          "date": "15",
+          "super": "th",
+          "month": "September",
+          "year": "2020"
+        }
       },
       "desc": "I worked as a web developer & graphics designer, where I designed and developed the company website using PHP and JavaScript. I designed various graphics for the website and social media accounts. I also developed various online content and marketing tools for the promotion for the company."
     },
     {
       "id": 3,
       "company": "IEEE MSIT Student Branch",
-      "position": "Technical Activities Coordinator",
-      "start": {
-        "date": "17",
-        "super": "th",
-        "month": "April",
-        "year": "2019"
-      },
-      "end": {
-        "date": "15",
-        "super": "th",
-        "month": "June",
-        "year": "2020"
+      "position": {
+        "name": "Technical Activities Coordinator",
+        "start": {
+          "date": "17",
+          "super": "th",
+          "month": "April",
+          "year": "2019"
+        },
+        "end": {
+          "date": "15",
+          "super": "th",
+          "month": "June",
+          "year": "2020"
+        }
       },
       "desc": "As the Technical Activities Coordinator at IEEE MSIT, I was responsible for conducting events and programs for students of MSIT where they could learn to develop projects to tackle real-world problems, also guiding and mentoring students for building these projects. I organised Special Interest Groups (SIGs) and Summer Project to Product Program (mentorship program during summer break). I was also the lead for organising the annual college Tech Fest and Technical Projects Exhibition (A national-level exhibition)."
     },
     {
       "id": 2,
       "company": "OSA Hub Technologies",
-      "position": "Java on Cloud Trainee",
-      "start": {
-        "date": "18",
-        "super": "th",
-        "month": "June",
-        "year": "2018"
-      },
-      "end": {
-        "date": "31",
-        "super": "st",
-        "month": "July",
-        "year": "2018"
+      "position": {
+        "name": "Java on Cloud Trainee",
+        "start": {
+          "date": "18",
+          "super": "th",
+          "month": "June",
+          "year": "2018"
+        },
+        "end": {
+          "date": "31",
+          "super": "st",
+          "month": "July",
+          "year": "2018"
+        }
       },
       "desc": "I was a trainee, learning the fundamentals of Java. I also worked with JSPs and Servlets. I worked on Cloud Services such as Google App Engine and AWS. I led my team to develop a social media application called Talenholic, using Java."
     },
@@ -156,18 +188,20 @@
     {
       "id": 1,
       "company": "US4 Business Solutions Pvt. Ltd.",
-      "position": "Business Analytics Intern",
-      "start": {
-        "date": "13",
-        "super": "th",
-        "month": "June",
-        "year": "2017"
-      },
-      "end": {
-        "date": "28",
-        "super": "th",
-        "month": "July",
-        "year": "2017"
+      "position": {
+        "name": "Business Analytics Intern",
+        "start": {
+          "date": "13",
+          "super": "th",
+          "month": "June",
+          "year": "2017"
+        },
+        "end": {
+          "date": "28",
+          "super": "th",
+          "month": "July",
+          "year": "2017"
+        }
       },
       "desc": "I was working as a Business Analytics Intern, where I was researching recruitment companies in the United States of America. I also developed the content for the company's website along with that of their sister company 'ErinLabs'. I also compiled the data and the progress report for the month's projects."
     }
@@ -206,7 +240,8 @@
       "id": 5,
       "name": "Placement Software",
       "desc": "At IEEE MSIT, our team developed a software for the placement department of MSIT. The software filters students from a database based on criteria set by the visiting company on campus. The software also sends notification emails and SMS to students selected for further rounds.",
-      "tech": ["Python"]
+      "tech": ["Python"],
+      "github": "https://github.com/BrayanAbraham/Placement-Software"
     },
     {
       "id": 6,
@@ -217,5 +252,5 @@
       "tech": ["Python", "Django"]
     }
   ],
-  "resume": "https://drive.google.com/file/d/1SdF4kh-P20a6hvYneW5Mx5R280tTiBfR/view?usp=sharing"
+  "resume": "https://drive.google.com/file/d/1tO1FmjCdZT1-ySo50xVm_Hlvvv83aL7R/view?usp=sharing"
 }
