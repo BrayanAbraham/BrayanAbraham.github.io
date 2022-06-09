@@ -122,7 +122,7 @@
           }
         }
       ],
-      "desc": "I am currently working as a Software Engineer working at the backend on the VWO platform used for AB Testing and other kinds of CRO activities. Developing and maintaining the backend of VWO along with the micro-services associated with it. I have also designed and developed a Domain Specific Language (DSL) to communicate between micro-services to communicate segment information. Currently working on Multi-Factor Authentication and the upcoming Event Architecture on the VWO application."
+      "desc": "I am currently working as a Software Engineer working at the backend on the VWO platform used for AB Testing and other kinds of CRO activities. Developing and maintaining the backend of VWO along with the micro-services associated with it. I have also designed and developed a Domain Specific Language (DSL) to communicate between micro-services to communicate segment information. Designed and developed an adaptive and extendable configuration format used to build templates to render segment box from backend. Built the VWO backend for the new Customer Data Platform to track all kinds of user data along with the Personalize Product where experience is served to visitors by targeting based on the user data from CDP. Developed various security features like Multi-Factor Authentication"
     },
     {
       "id": 4,
